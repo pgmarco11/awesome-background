@@ -24,7 +24,7 @@ class faw_page_widget extends WP_Widget {
 
 	public function __construct(){	
 		
-		parent::__construct( 'fa_page_widget', ' Font Awesome Background', array(
+		parent::__construct( 'faw_background', ' Font Awesome Background', array(
 			'classname' => 'faw_page_widget',
 			'description' => __('Easily add links into your WordPress posts, pages, and custom post types with Font Awesome Icon as background'))
 		);
